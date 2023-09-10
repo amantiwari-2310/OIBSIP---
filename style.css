@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+html,body{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    color: white;
+}
+form{
+    border: 1px solid;
+    width: 450px;
+    margin: 100px auto;
+    padding: 2rem 5rem;
+    box-shadow: 0 0 1rem aqua;
+}
+h2,h1{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+h1{
+    text-shadow: 0 0 7px aqua;
+}
+.one{
+    margin-left: 35px;
+}
+.two{
+    margin-left: 5px;
+}
+.three{
+    padding: 10px 15px;
+}
+.three:hover{
+    box-shadow: 0 0 1rem aqua;
+    
+}
+.btn{
+    margin: 0 auto;
+    width: 100%;
+}
+label{
+    font-size: 1.4rem;
+}
